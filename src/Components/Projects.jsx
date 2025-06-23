@@ -1,5 +1,4 @@
 
-import { div } from "framer-motion/client";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
@@ -8,7 +7,7 @@ const Projects = () => {
       title: "Travel Planner ",
       description : "An App where you can plan your travels and make budgets and plans for specific destinations",
       technologies: ["React" ,"Tailwind CSS", "Node.js", "Express.js","MongoDB" ],
-      thumbnail: "src/assets/travelPlanner.png",
+      thumbnail: "/travelPlanner.png",
       previewLink: "https://travelplanner-trip.netlify.app",
       frontendLink: "https://github.com/aravind1100/travelPlanner-frontEnd",
       backendLink: "https://github.com/aravind1100/travelPlanner-backEnd"
@@ -18,7 +17,7 @@ const Projects = () => {
       title: "Construction Website",
       description: "A single page application built for client to showcase their construction works",
       technologies: ["React","Tailwind CSS"],
-      thumbnail: "src/assets/builders.png",
+      thumbnail: "/builders.png",
       previewLink: "https://sskbuilders.netlify.app",
       frontendLink: "https://github.com/aravind1100/saiKrishna-frontEnd",
       backendLink: null
@@ -28,7 +27,7 @@ const Projects = () => {
       title: "My Portfolio",
       description: "A personal website to showcase my skills and projects. Built with React and Tailwind CSS.",
       technologies: ["React", "Tailwind CSS"],
-      thumbnail: "src/assets/portfolio.png",
+      thumbnail: "/portfolio.png",
       previewLink: "#",
       frontendLink: "https://github.com/yourusername/portfolio-frontend",
       backendLink: null 

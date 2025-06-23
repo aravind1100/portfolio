@@ -1,8 +1,8 @@
-import codingGif from "../assets/coding.gif";
+import codingGif from "/coding.gif";
 import socialLinks from "../data/socialLinks"; // Adjust the path as needed
 
 const Hero = () => {
-  const resumePdfUrl = "src/assets/Resume (10).pdf";
+  const resumePdfUrl = "/Resume (10).pdf";
 
   return (
     <section
