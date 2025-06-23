@@ -29,7 +29,7 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS"],
       thumbnail: "/portfolio.png",
       previewLink: "#",
-      frontendLink: "https://github.com/yourusername/portfolio-frontend",
+      frontendLink: "https://github.com/aravind1100/portfolio",
       backendLink: null 
     }
   ];
