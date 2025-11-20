@@ -2,7 +2,7 @@ import codingGif from "/coding.gif";
 import socialLinks from "../data/socialLinks"; // Adjust the path as needed
 
 const Hero = () => {
-  const resumePdfUrl = "/Resume (10).pdf";
+  const resumePdfUrl = "/My-Resume.pdf";
 
   return (
     <section
@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
 
         {/* Buttons */}
-        <div className="hidden md:flex space-x-2 mt-5">
+        <div className=" md:flex space-x-2 mt-5">
           <a
             href={resumePdfUrl}
             target="_blank"
