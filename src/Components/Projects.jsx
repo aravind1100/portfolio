@@ -13,25 +13,27 @@ const Projects = () => {
       backendLink: "https://github.com/aravind1100/travelPlanner-backEnd"
     }
     ,
-     {
-      title: "Construction Website",
-      description: "A single page application built for client to showcase their construction works",
-      technologies: ["React","Tailwind CSS"],
-      thumbnail: "/builders.png",
-      previewLink: "https://sskbuilders.netlify.app",
-      frontendLink: "https://github.com/aravind1100/saiKrishna-frontEnd",
-      backendLink: null
+        {
+      "title": "Finance Tracker",
+      "description": "A web application to track income and expenses, visualize spending patterns, and manage your finances efficiently.",
+      "technologies": ["React", "Tailwind CSS","Node.js","Express.js","MongoDB"],
+      "thumbnail": "/finance-tracker.png",
+      "previewLink": "https://finance-trackerz.netlify.app/",
+      "frontendLink": "https://github.com/aravind1100/finance-tacker-frontend",
+      "backendLink": "https://github.com/aravind1100/finance-tracker-backend"
     }
+
     ,
-    {
-      title: "My Portfolio",
-      description: "A personal website to showcase my skills and projects. Built with React and Tailwind CSS.",
-      technologies: ["React", "Tailwind CSS"],
-      thumbnail: "/portfolio.png",
-      previewLink: "#",
-      frontendLink: "https://github.com/aravind1100/portfolio",
-      backendLink: null 
-    }
+  {
+  "title": "Shopperz Stop",
+  "description": "A full-featured e-commerce app with product browsing, authentication, cart management, and secure checkout.",
+  "technologies": ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+  "thumbnail": "/shopperz-stop.png",
+  "previewLink": "https://shoperzstop.netlify.app/",
+  "frontendLink": "https://github.com/aravind1100/e-comm-frontend",
+  "backendLink": "https://github.com/aravind1100/e-comm-backend"
+}
+
   ];
 
   return (
